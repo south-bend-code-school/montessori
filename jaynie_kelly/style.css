@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+}
+h1 {
+    color: white;
+}
+h2 {
+    color: white;
+  }
+  #maze {
+    background-image: url("https://www.ancient-origins.net/sites/default/files/styles/large/public/extremely-complex-labyrinth.jpg?itok=XPW0xsaH");
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #hallows {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPzr3GOIvXjEeNgQXW4c5bw3l-Fb4YLz1qbCb2ka03HDrEwxLg");
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #characters{
+  position: fixed;
+  top: 55%;
+  right: 55%;
+}
+
+ .buttonmargin{
+   margin:5px;
+   background-color: black;
+   border-color: navy;
+    color: navy;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    position: relative;
+    left:60%;
+ }
+
+#maninmaze{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPzr3GOIvXjEeNgQXW4c5bw3l-https://cdn1.medicalnewstoday.com/content/images/headlines/310/310497/man-lost-in-a-maze.jpg");
+  background-repeat: no-repeat;
+  width: 20%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}

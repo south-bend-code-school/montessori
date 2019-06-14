@@ -1,0 +1,38 @@
+body{
+background-color: blue;
+color: black;
+}
+h1{
+text-align: center;
+}
+h2{
+text-align: center;
+}
+#bio{
+background-color: Gold;
+color: indigo;
+text-align: center;
+}
+#experience{
+background-color: red;
+color: white;
+text-align: center;
+}
+#projects{
+background-color: DarkGreen;
+color: orange;
+text-align: center;
+}
+img{
+width: 300px;
+}
+#battle:hover{
+animation: animation 2s linear;
+}
+#climate:hover{
+animation: animation 2s linear;
+}
+@keyframes animation{
+0%{width: 300px;}
+100%{width: 350px;}
+}

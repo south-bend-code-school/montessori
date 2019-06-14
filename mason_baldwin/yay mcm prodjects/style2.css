@@ -1,0 +1,54 @@
+body{
+  font-family: 'Rubik', sans-serif;
+text-align: center;
+background-image:url("background.jpg");
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF0000;
+font-family: 'Rubik', sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+#realdeal {
+  width: 650px;
+  margin: auto;
+  border: 20px solid purple;
+  background-color: white;
+}
+#space {
+  width: 650px;
+  height: 137px;
+  margin: auto;
+  border: 0px solid white:
+}
+#lessspace {
+  width: 650px;
+  height: 50px;
+  margin: auto;
+  border: 0px solid white:
+}
+#pickl {
+  width: 650px;
+  margin: auto;
+  border: 20px solid purple;
+  background-color: solid white;
+}

@@ -1,0 +1,14 @@
+.center {
+text-align:center;
+}
+#stop{
+  font-size: 80px;
+}
+body{
+  background-color: #00ff80;
+}
+.topnav{
+ width: 100%;
+}
+
+.active{margin-right:10vw;}

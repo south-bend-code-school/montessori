@@ -1,0 +1,41 @@
+html, body{
+  height:100%;
+}
+
+#box1 {
+  width:33%;
+  height: 50%;
+  float: left;
+  background-color: aqua;
+}
+#box2 {
+  width:34%;
+  height: 50%;
+  float: left;
+  background-color: pink;
+}
+#box3 {
+  width:33%;
+  height: 50%;
+  float: left;
+  background-color: purple;
+}
+
+#box4{
+  width:33%;
+  height: 50%;
+  float:left;
+  background-color: lightgreen;
+}
+#box5{
+width:34%;
+height: 50%;
+float:left;
+background-color: mediumvioletred;
+}
+#box6{
+width:33%;
+height: 50%;
+float:left;
+background-color: royalblue;
+}

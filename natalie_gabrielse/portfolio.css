@@ -1,0 +1,16 @@
+body{
+text-align: center;
+background-color: #42f49b;
+}
+
+#soccer {
+  padding-top: 273px;
+  padding-bottom: 273px;
+  /* margin-bottom: -250px; */
+  /* width:100vw;
+  height:100vh; */
+  background-image: url("soccerportfolio.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

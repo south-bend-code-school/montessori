@@ -1,0 +1,19 @@
+.row{
+width: 100%;
+width: 350px;
+}
+.col{
+height:100%;
+width:33%;
+border:1px solid black;
+float:left;
+display:inline-block;
+}
+#box1{
+  background-image: url(https://www.bakerstownah.com/sites/default/files/styles/large/adaptive-image/public/chihuahua-dog-breed-info.jpg?itok=7FGBYosq);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#box2{
+
+}

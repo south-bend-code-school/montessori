@@ -1,0 +1,66 @@
+h1{
+font-family: arial
+}
+
+.row{
+  height: 500px;
+  width: 100%;
+}
+
+.block{
+  float:left;
+}
+#box1{
+  width: 50%;
+height:400px;
+margin-left: auto;
+display: inline-block;
+/*float: left; */
+background-image: url('https://s.hswstatic.com/gif/dog-9.jpg');
+background-repeat: no-repeat;
+}
+#box2{
+  width: 50%;
+height:400px;
+display: inline-block;
+/*float: left; */
+background-image: url('https://images.pexels.com/photos/38438/rattlesnake-toxic-snake-dangerous-38438.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+background-repeat: no-repeat;
+}
+#box3{
+  width: 50%;
+height:400px;
+display: inline-block;
+background-image: url('https://kirbiecravings.com/wp-content/uploads/2016/09/mochi-ice-cream-033.jpg');
+background-repeat: no-repeat;
+}
+#box4{
+  width: 50%;
+height:400px;
+display: inline-block;
+background-image: url('https://www.bioexplorer.net/file/4-passion-flower.jpg');
+background-repeat: no-repeat;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li{
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #111;
+}

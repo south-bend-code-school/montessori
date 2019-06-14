@@ -1,0 +1,67 @@
+body {background-color: black;
+text-align: center;
+font-family: 'Mali', cursive;
+}
+
+.topbun{
+  width:348px;
+  height: 140px;
+  background-color: tan;
+  margin: auto;
+  border-radius: 100px 100px 20px 20px;
+}
+
+.ketchup {
+  width: 340px;
+  height: 5px;
+  background-color: red;
+  margin: auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.lettuce {
+  width: 360px;
+  height: 20px;
+  background-color: lightgreen;
+  margin: auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.onion {
+  width: 300px;
+  height: 13px;
+  background-color: purple;
+  margin: auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.tomato {
+  width: 320px;
+  height: 25px;
+  background-color: red;
+  margin: auto;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.cheese {
+width: 360px;
+height: 10px;
+background-color: yellow;
+margin: auto;
+}
+
+.patty{
+  width: 344px;
+  height: 40px;
+  background-color: brown;
+  margin: auto;
+  border-radius: 20px 20px 10px 10px;
+}
+
+.bottombun {
+  width: 348px;
+  height: 90px;
+  background-color: tan;
+  margin: auto;
+  border-radius: 20px 20px 40px 40px;
+}

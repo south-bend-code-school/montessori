@@ -1,0 +1,39 @@
+body{
+  background-color:#ffcc99;
+  font-family:'Thasadith',sans-serif;
+}
+#Explanation{
+  width: 50vw;
+  line-height:10vh;
+}
+#heart-hands{
+margin-left: 60vw;
+}
+ul {
+  background-color:#666666;
+  /* list-style-type: none; */
+  margin: 0;
+  padding: 0;
+  background-color:#92ffb7;
+  /* padding: 8px; */
+  /* list-style-type: none; */
+ overflow: hidden;
+ font-size: 37px;
+}
+li a:hover {
+  background-color: #ff66ff;
+}
+
+li a {
+  display: block;
+  color: #666666;
+  /* text-align: center; */
+  padding: 3px 7px;
+  text-decoration: none;
+}
+
+li {
+  color:#666666;
+ float:right;
+  display: inline;
+}

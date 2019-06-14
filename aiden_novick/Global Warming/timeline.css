@@ -1,0 +1,46 @@
+body{
+background-color: black;
+color: gold;
+}
+img{
+  height: 40px%;
+}
+h1{
+text-align: center;
+}
+.slider {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+
+  -webkit-overflow-scrolling: touch;
+
+  -webkit-scroll-snap-points-x: repeat(300px);
+    -ms-scroll-snap-points-x: repeat(300px);
+        scroll-snap-points-x: repeat(300px);
+-webkit-scroll-snap-type: mandatory;
+    -ms-scroll-snap-type: mandatory;
+        scroll-snap-type: mandatory;
+}
+.slide {
+  width: 300px;
+  flex-shrink: 0;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+@supports (scroll-snap-type) {
+  .slider > a {
+    display: none;
+  }
+}
+.slides > div:target {
+  transform: scale(0.8);
+}
+.slidewrap{
+slidewrap: center;
+}
+.number{
+float: left;
+margin-right: 137px;
+}

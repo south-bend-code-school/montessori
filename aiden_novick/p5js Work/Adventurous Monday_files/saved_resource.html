@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!-- saved from url=(0012)about:srcdoc -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js" crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.sound.min.js" crossorigin=""></script>
+    
+    
+
+  <!--<base href="https://editor.p5js.org/AidenN/sketches/ldvu1rzg0/">--><base href="."><style>
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+</style><script src="https://editor.p5js.org/previewScripts.js"></script><style data-emotion=""></style><script>
+    function getScriptOff(line) {
+      var offs = [[55,"sketch"]];
+      var l = 0;
+      var file = '';
+      for (var i=0; i<offs.length; i++) {
+        var n = offs[i][0];
+        if (n < line && n > l) {
+          l = n;
+          file = offs[i][1];
+        }
+      }
+      return [line - l, file];
+    }
+    // catch reference errors, via http://stackoverflow.com/a/12747364/2994108
+    window.onerror = function (msg, url, lineNumber, columnNo, error) {
+        var string = msg.toLowerCase();
+        var substring = "script error";
+        var data = {};
+        if (url.match(/^(http:\/\/|https:\/\/)/) !== null && error.stack){
+          var errorNum = error.stack.split('about:srcdoc:')[1].split(':')[0];
+          var fileInfo = getScriptOff(errorNum);
+          data = msg + ' (' + fileInfo[1] + ': line ' + fileInfo[0] + ')';
+        } else {
+          var fileInfo = getScriptOff(lineNumber);
+          data = msg + ' (' + fileInfo[1] + ': line ' + fileInfo[0] + ')';
+        }
+        window.parent.postMessage([{
+          log: [{
+            method: 'error',
+            data: [data],
+            id: Date.now().toString()
+          }],
+          source: fileInfo[1]
+        }], '*');
+      return false;
+    };
+  </script></head>
+  <body>
+    <script data-tag="@fs-sketch.js">function setup() {
+  createCanvas(400, 400);
+}
+
+function draw() {
+  background(120, 0, 120);
+  if(mouseX <200 && mouseY > 200 ){
+    fill(0, 120, 0)
+   circle(mouseX, mouseY, 60); }
+  else if(mouseX>200 && mouseY>200){
+    fill(120, 0, 0)
+  circle(mouseX, mouseY, 30)}
+  else if(mouseX>200 && mouseY<200){
+    fill(0, 0, 120)
+  circle(mouseX, mouseY, 40)}
+  else if(mouseX<200 && mouseY<200){
+    fill(200, 200, 0)
+    circle(mouseX, mouseY, 50)}
+  else if(mouseX===200 && mouseY===200){
+    fill(200, 100, 0)
+  square(200, 200, 45)}
+}</script>
+  
+
+<canvas id="defaultCanvas0" class="p5Canvas" width="400" height="400" style="width: 400px; height: 400px;"></canvas></body></html>

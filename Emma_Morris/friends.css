@@ -1,0 +1,87 @@
+.row{
+  width:100%;
+  height:400px;
+}
+
+.col{
+  height: 100%;
+  width: 33%;
+  border:1px solid lightblue;
+  float: left;
+  display: inline-block;
+}
+
+#box1{
+  background-image: url(https://cdn3-www.dogtime.com/assets/uploads/gallery/golden-retriever-dogs-and-puppies/golden-retriever-dogs-puppies-7.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow:hidden;
+  transition: 2s;
+}
+#box1:hover{
+  background-image: url(https://cdn3-www.dogtime.com/assets/uploads/gallery/golden-retriever-dogs-and-puppies/golden-retriever-dogs-puppies-7.jpg);
+background-size: 70%;
+}
+#box2{
+  background-image: url(https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/557234-istock-503488234.jpg?itok=empSJXDv&resize=1100x1100);
+  background-size: 100%;
+  background-repeat: no-repeat;
+    background-position: center;
+    overflow:hidden;
+    transition: 2s;
+}
+#box2:hover{
+  background-image: url(https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/557234-istock-503488234.jpg?itok=empSJXDv&resize=1100x1100);
+  background-size: 120%;
+}
+#box3{
+  background-image: url(https://www.latimes.com/resizer/dAaJhBwHJV_Ir86ljb5zuRL_hGw=/1200x0/www.trbimg.com/img-5558ce4b/turbine/la-sp-ucla-logo-big-20140421);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow:hidden;
+  transition: 2s;
+}
+#box3:hover{
+  background-image: url(https://www.latimes.com/resizer/dAaJhBwHJV_Ir86ljb5zuRL_hGw=/1200x0/www.trbimg.com/img-5558ce4b/turbine/la-sp-ucla-logo-big-20140421);
+  background-size: 70%
+}
+
+#box4{
+  background-image: url(https://dadodd.com/sites/default/files/styles/project__450x300_/public/st%20joe%20high%20school_0.jpg?itok=4XLNxhzT);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow:hidden;
+  transition: 2s;
+}
+#box4:hover{
+  background-image:url(https://dadodd.com/sites/default/files/styles/project__450x300_/public/st%20joe%20high%20school_0.jpg?itok=4XLNxhzT);
+  background-size: 120%;
+}
+
+#box5{
+  background-image: url(https://media2.trover.com/T/5995dfea8cdc487f5f00e2a5/fixedw_large_4x.jpg);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow:hidden;
+  transition: 2s;
+}
+#box5:hover{
+  background-image: url(https://media2.trover.com/T/5995dfea8cdc487f5f00e2a5/fixedw_large_4x.jpg);
+  background-size: 70%;
+}
+#box6{
+  background-image: url(https://cloud.lovindublin.com/images/Screen-Shot-2017-11-28-at-4.03.57-PM.png?mtime=20171128200545);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow:hidden;
+  transition: 2s;
+}
+#box6:hover{
+  background-image: url(https://cloud.lovindublin.com/images/Screen-Shot-2017-11-28-at-4.03.57-PM.png?mtime=20171128200545);
+  background-size: 70%;
+}

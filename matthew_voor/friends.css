@@ -1,0 +1,60 @@
+.row{
+  width: 100%;
+  height: 350px;
+}
+
+.col{
+  height: 100%;
+  width: 33%;
+  border: 1px solid springgreen;
+  float: left;
+  display:
+}
+
+#box1{
+  background-image: url(https://i.redd.it/hbiboiq9yn901.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+#box1:hover{
+  background-image: url(https://i.redd.it/hbiboiq9yn901.jpg);
+  background-size: 80%;
+}
+#box2{
+  background-image: url(https://scontent.cdninstagram.com/vp/665203eba640298c7b2ee7e810d1c3f6/5C9532EE/t51.2885-15/e35/c0.80.640.640/s480x480/53098739_748482875549197_6829813255061014209_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+#box2:hover{
+  background-image: url(https://scontent.cdninstagram.com/vp/665203eba640298c7b2ee7e810d1c3f6/5C9532EE/t51.2885-15/e35/c0.80.640.640/s480x480/53098739_748482875549197_6829813255061014209_n.jpg?_nc_ht=scontent-atl3-1.cdninstagram.com);
+  background-size: 80%;
+}
+#box3{
+  background-image: url(https://i.ytimg.com/vi/EAyQgZvGttg/maxresdefault.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+#box4{
+  background-image: url(https://media.thetab.com/blogs.dir/90/files/2019/01/animal.jpeg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+#box5{
+  background-image: url(https://medias.spotern.com/spots/w640/124007-1532336916.jpg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
+
+#box6{
+  background-image: url(https://scontent-amt2-1.cdninstagram.com/vp/0060d9e03c4f152e6148475d594a41c5/5C9D786C/t51.2885-19/s320x320/43594887_496982587470596_4591545735660437504_n.jpgx);
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}

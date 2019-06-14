@@ -1,0 +1,17 @@
+body {
+  background-color: turquoise;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-align: center;
+}
+
+#have{
+  color: mediumvioletred;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: type 4s infinite;
+}
+
+@keyframes type {
+  from{width:0}
+  to{width:100%}
+}

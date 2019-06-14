@@ -1,0 +1,53 @@
+h1 {
+  color: #333;
+  text-align: center
+}
+body {
+  background-color: white;
+}
+h3 {
+  color: black;
+  text-align:center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+p{
+color: black;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+h3 {
+
+}
+
+#climatechangetext{
+
+  padding: 5px;
+  text-align: center;
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+h3{
+   font-family: "Lucida Console", Times, serif;
+}

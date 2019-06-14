@@ -1,0 +1,28 @@
+.row{
+  width: 50%;
+  height: 50px;
+
+  padding: 0 0.5%;
+  display: inline-block;
+  float: left;
+  left: auto;
+  right: auto;
+}
+
+.cell{
+  height: 100%;
+  width: 30%;
+  border: 1px solid black;
+
+  float: left;
+  background-image: url(defaultimage.jpeg);
+  background-repeat: none;
+}
+
+.red{
+  background-color: red;
+}
+
+.blue{
+  background-color: blue;
+}

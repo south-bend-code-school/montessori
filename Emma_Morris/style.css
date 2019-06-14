@@ -1,0 +1,29 @@
+body{
+ background-color: lightblue;
+ max-width: 500px;
+    margin: auto;
+
+}
+
+button{
+  font-size: 30px;
+}
+#dining {
+  height: 300px;
+  width: 300px;
+}
+#suitcase {
+  height: 300px;
+  width: 300px;
+}
+#slides {
+  height: 300px;
+  width: 300px;
+}
+
+#element1 {
+  display:inline-block;margin-right:10px;
+}
+#element2 {
+  display:inline-block;
+} 

@@ -1,0 +1,38 @@
+.button2 {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20%;
+    right:20%
+
+}
+.button1 {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 20%;
+    right:70%;
+
+}
+body{
+
+background-color: #cccccc;
+background-repeat: no-repeat;
+background-size: cover;
+}
